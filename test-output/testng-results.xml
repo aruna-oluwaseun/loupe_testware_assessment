@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-04T13:33:57 BST" name="Default suite" finished-at="2024-10-04T13:34:02 BST" duration-ms="4782">
+    <groups>
+    </groups>
+    <test started-at="2024-10-04T13:33:57 BST" name="Default test" finished-at="2024-10-04T13:34:02 BST" duration-ms="4782">
+      <class name="assessment.StoreAPITests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:assessment.StoreAPITests@47e2e487]" started-at="2024-10-04T13:33:57 BST" name="setup" finished-at="2024-10-04T13:33:58 BST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateOrder()[pri:0, instance:assessment.StoreAPITests@47e2e487]" started-at="2024-10-04T13:33:58 BST" name="testCreateOrder" finished-at="2024-10-04T13:34:00 BST" duration-ms="2456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateOrder -->
+        <test-method signature="testGetOrderById()[pri:0, instance:assessment.StoreAPITests@47e2e487]" started-at="2024-10-04T13:34:00 BST" name="testGetOrderById" finished-at="2024-10-04T13:34:01 BST" depends-on-methods="assessment.StoreAPITests.testCreateOrder" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetOrderById -->
+        <test-method signature="testDeleteOrderById()[pri:0, instance:assessment.StoreAPITests@47e2e487]" started-at="2024-10-04T13:34:01 BST" name="testDeleteOrderById" finished-at="2024-10-04T13:34:01 BST" depends-on-methods="assessment.StoreAPITests.testGetOrderById" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteOrderById -->
+        <test-method signature="testGetInventory()[pri:0, instance:assessment.StoreAPITests@47e2e487]" started-at="2024-10-04T13:34:01 BST" name="testGetInventory" finished-at="2024-10-04T13:34:02 BST" depends-on-methods="assessment.StoreAPITests.testGetOrderById" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetInventory -->
+        <test-method signature="testGetDeletedOrder()[pri:0, instance:assessment.StoreAPITests@47e2e487]" started-at="2024-10-04T13:34:02 BST" name="testGetDeletedOrder" finished-at="2024-10-04T13:34:02 BST" depends-on-methods="assessment.StoreAPITests.testDeleteOrderById" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDeletedOrder -->
+      </class> <!-- assessment.StoreAPITests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
